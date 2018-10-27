@@ -56,6 +56,14 @@ public class Main {
   String registrar() {
     return "registrar";
   }
+  @RequestMapping("/Menu")
+  String Menu() {
+    return "Menu";
+  }
+   @RequestMapping("/ConsultaEquipos")
+  String ConsultaEquipos() {
+    return "ConsultaEquipos";
+  }
 
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
