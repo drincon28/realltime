@@ -64,6 +64,10 @@ public class Main {
   String ConsultaEquipos() {
     return "ConsultaEquipos";
   }
+@RequestMapping("/confirmar")
+  String confirmar() {
+    return "confirmar";
+  }
 
   @RequestMapping("/db")
   String db(Map<String, Object> model) {

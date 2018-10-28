@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/10/2018, 01:14:44 PM
+    Author     : jconde
+*/
+#logo{width: 100%; 
+         height: 100px;
+         background-color: #93C47D}
+#apDiv2 {
+	position:absolute;
+	left:150px;
+	top:20px;
+	width:122px;
+	height:59px;
+	text-align:center;
+	line-height:45px;
+	z-index:2;
+}
+#apDiv3 {
+	position:absolute;
+	left:30%;
+	top:120px;
+	width:650px;
+	height:59px;
+	text-align:center;
+	line-height:50px;
+	z-index:2;
+}
+#mano{
+    position: absolute;
+    top: 35%;
+    right:0;
+    bottom:0;
+    left: 45%;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#casa{
+    position: absolute;
+    top: 75%;
+    right:0;
+    bottom:0;
+    left: 30%;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+#flecha{
+    position: absolute;
+    top: 74.4%;
+    right:0;
+    bottom:0;
+    left: 65%;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
