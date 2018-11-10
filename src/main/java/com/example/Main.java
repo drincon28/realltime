@@ -68,7 +68,14 @@ public class Main {
   String confirmar() {
     return "confirmar";
   }
-
+@RequestMapping("/login")
+  String login() {
+    return "login";
+  }
+@RequestMapping("/validacionlogin")
+  String validacionlogin() {
+    return "validacionlogin";
+  }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
