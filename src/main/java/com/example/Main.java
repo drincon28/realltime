@@ -69,6 +69,13 @@ public class Main {
     return "confirmar";
   }
 
+@RequestMapping("/reportes")
+String reportes() {
+  return "reportes";
+}
+
+
+
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
