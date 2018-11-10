@@ -68,7 +68,14 @@ public class Main {
   String confirmar() {
     return "confirmar";
   }
-
+@RequestMapping("/login")
+  String login() {
+    return "login";
+  }
+@RequestMapping("/validacionlogin")
+  String validacionlogin() {
+    return "validacionlogin";
+  }
 @RequestMapping("/reportes")
 String reportes() {
   return "reportes";
