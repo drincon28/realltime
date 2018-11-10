@@ -48,13 +48,25 @@ public class Main {
     SpringApplication.run(Main.class, args);
   }
 
-  @RequestMapping("/")
+  @RequestMapping("/Index")
   String index() {
     return "index";
   }
   @RequestMapping("/Registrar")
   String registrar() {
     return "registrar";
+  }
+  @RequestMapping("/Menu")
+  String Menu() {
+    return "Menu";
+  }
+   @RequestMapping("/ConsultaEquipos")
+  String ConsultaEquipos() {
+    return "ConsultaEquipos";
+  }
+@RequestMapping("/confirmar")
+  String confirmar() {
+    return "confirmar";
   }
 
   @RequestMapping("/db")

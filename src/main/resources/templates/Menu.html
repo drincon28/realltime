@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'Menu')}">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./public/stylesheets/main.css"/> 
+        <title>Menu Administrador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#9FC5F8">
+        
+        <div id="Barra">         
+            <input type="image" id="Sesion" onclick=" location.href='http://www.google.com' " alt="Sesion" src="Sesion.jpg" width="80" style="text-align: right; border-radius:50%"/> <div> <h3 style="font-family: Verdana; margin-top: 0px; margin-bottom: 0px;"> Administrador</h3> </div>
+        </div>
+        
+       <div id="Usuario">
+           <h1 style="font-family: Verdana; font-size: 2em; text-align: center;"> USUARIO </h1>
+        </div>
+        
+        <table style="text-align:center;" width="95%" cellpadding="55" border="5px" >
+    <tr>
+        <td> <input type="button" onclick=" location.href='/Registrar' " value="Ingresar Equipo" name="B_Ingresar"  style="background-color:#FFFFFF;  border-color:#000000; font-size: 1.1em; font-family: Verdana; width:200px; height:100px; border-radius:5px; box-shadow: 5px 5px 0px #A4A4A4"/> </td>
+      <td> <input type="button" onclick=" location.href='/ConsultaEquipos' " value="Consultar Equipo" name="B_Consultar" style="background-color:#FFFFFF; border-color:#000000; font-size: 1.1em; font-family: Verdana; width:200px; height:100px; border-radius:5px; box-shadow: 5px 5px 0px #A4A4A4"/> </td>
+    </tr>   
+        
+    <tr>
+      <td> <input type="button" onclick=" location.href='http://www.google.com' " value="Reporte Historico" name="B_Reporte" style="background-color:#FFFFFF; border-color:#000000; font-size: 1.1em; font-family: Verdana; width:200px; height:100px;  border-radius:5px; box-shadow: 5px 5px 0px #A4A4A4"/> </td>
+      <td> <input type="button" onclick=" location.href='http://www.google.com' " value="Control de Tiempo" name="B_Tiempo" style="background-color:#FFFFFF; border-color:#000000; font-size: 1.1em; font-family: Verdana; width:200px; height:100px;  border-radius:5px; box-shadow: 5px 5px 0px #A4A4A4"/> </td>
+    </tr>
+    </table>
+      
+        <div>
+            <input type="image" id="imageButton" onclick=" location.href='/' " width="50" alt="Home" style="text-align: center;" src="Home.png" />
+        </div>
+               
+        <div>
+            <h2 style="text-align: center; font-family: Verdana">Copyright</h2>
+        </div>
+        
+    </body>
+</html>

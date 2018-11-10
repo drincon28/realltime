@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'Menu')}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/stylesheets/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<link rel="stylesheet" href="/stylesheets/CssConsultaEquipos.css">
+	<title>Consultar Equipo</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="form__top">
+                    <h2>Formulario <span>Consultar Equipo</span></h2>
+		</div>		
+		<form class="form__reg" action="">
+                    <input class="input" type="text"  placeholder="&#128221; ID *" required autofocus>
+            <input class="input" type="date" readonly="readonly" placeholder= "&#128197;  Fecha Recibido" required>
+            <input class="input" type="text" readonly="readonly" placeholder="&#x1F465;  Asignado a" required>
+            <input class="input" type="text" readonly="readonly" placeholder="&#x1F50B;  Estado" required>
+            <input class="input" type="text" readonly="readonly" placeholder="&#x1F58D;  Cliente" required>
+            <div class="btn__form">
+            	<input class="btn__submit"  type="submit" value="Consultar">
+            </div>
+		</form>
+	</div>
+ 
+    
+        <div class="container">
+            <input type="image" id="imageButton" onclick=" location.href='/' " width="50" alt="Home" style="text-align: center;" src="Home.png" />
+        </div>
+        <div>
+            <h2 style="text-align: center; font-family: Verdana">Copyright</h2>
+        </div>
+    
+    
+	
+</body>
+</html>
