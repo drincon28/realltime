@@ -16,7 +16,13 @@
                 <p>
                     <label>ID *
                     </label>
-                    <input type="text" class="long"/>
+                     <script type="text/javascript">
+                        
+                        var Num
+                        Num=Math.round(Math.random()*100000)
+                        document.write(Num)
+                    
+                    </script>    
                 </p>
                 <p>
                     <label>Fecha recibido *
@@ -111,7 +117,7 @@
                         <option value="12">Diciembre
                         </option>
                     </select>
-                    <input class="year" type="text" size="4" maxlength="4"/>e.g 1976
+                    <input class="year" type="text" placeholder="Año" size="4" maxlength="4"/>
                 </p>
                 <p>
                     <label>Asignado a *
@@ -147,7 +153,7 @@
                 </p>
             </fieldset>
             <fieldset class="row2">
-				<legend>Confirmar
+		<legend>Confirmar
                 </legend>
                 <div class="infobox"><h4>Ayuda</h4>
                     <p>El ID se ingresa manualmente. </p>
@@ -166,3 +172,7 @@
 
 </body>
 </html>
+
+
+
+

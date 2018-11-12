@@ -81,8 +81,12 @@ String reportes() {
   return "reportes";
 }
 
+   @RequestMapping("/ModificarConsultaEquipo")
+  String ModificarConsultaEquipo() {
+    return "ModificarConsultaEquipo";
+  }
 
-
+  
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
