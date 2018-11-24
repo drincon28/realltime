@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Reparaciones Tecnicas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/repartecnico.css"/>
+    </head>
+<body>
+<div class="div-banner">En construcción</div>
+<div class="div-perfil">En Construcción</div>
+<div class="div-misreparaciones">hello</div>
+<form action="http://www.google.com" method="post" class="form-reparacion">
+    <h3>Reparación - ID</h3>
+    <div>
+        <label for="name">Cliente:</label>
+        <input type="text" id="name" />
+	<label for="name">Marca:</label>
+	<input type="text" id="name" class="input-marca"/>
+	<label for="name">Modelo:</label>
+	<input type="text" id="name" class="input-modelo"/>
+	<label for="name">Fecha Recepción:</label>
+	<input type="text" id="name" />
+    </div>
+    <div>
+	<label for="name">Fecha Reparación:</label>
+	<input type="date" id="name" class="input-fecha"/>
+	<label for="name">Tiempo de reparación:</label>
+	<input type="text" id="name" class="input-tiempo"/>
+	<input type="number" name="number" min="1" max="31" step="1" required="required" class="input-numero"/>
+    </div>
+    <h3>Diagnóstico Inicial: </h3>
+    <div>
+	<label for="msg">Diagnóstico Inicial:</label>
+        <textarea id="msg" class="textarea-diags"></textarea>
+    </div>
+    <h3>Seguimiento: </h3>	
+    <div>
+	<div>        
+        <label for="favance">Fecha de Avance:</label>
+	<label for="avance">Avance:</label>
+	<label for="estado">Estado:</label>
+	<label for="accion">Acción:</label>
+	</div>
+	<div>
+	<input type="text" id="mail" class="input-favance"/>
+	<input type="text" id="mail" class="input-avance"/>
+	<input type="text" id="mail" class="input-estado"/>
+	<input type="text" id="mail" class="input-accion"/>
+	</div>
+    </div>
+    <h3>Avance: </h3>
+    <div>
+	<label for="name">Fecha *:</label>
+	<input type="date" id="name" class="input-fecha"/>
+        <label for="msg">Actividad Realizada:</label>
+        <textarea id="msg" class="textarea-actividad"></textarea>
+	<label for="name">Nuevo Estado:</label>
+	<input type="text" id="name" class="input-tipo"/>
+    </div>
+    
+    <div class="button" style="text-align: right">
+        <button type="submit">Guardar</button>
+    </div>
+</form>
+    </body>
+</html>

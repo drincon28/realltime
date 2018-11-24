@@ -85,6 +85,14 @@ String reportes() {
   String ModificarConsultaEquipo() {
     return "ModificarConsultaEquipo";
   }
+  @RequestMapping("/listadereparaciones")
+  String listadereparaciones() {
+    return "listadereparaciones";
+  }
+  @RequestMapping("/reparacionestecnico")
+  String lreparacionestecnico() {
+    return "reparacionestecnico";
+  }
 
   
   @RequestMapping("/db")

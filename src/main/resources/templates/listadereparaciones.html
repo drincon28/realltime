@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo en HTML</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/listareparaciones.css"/>
+    <script src="eventos.js"></script>
+  </head>
+  <body>
+    <div id="logo">
+	<img class="img-tecnico" src="tecnico.png">
+        <div class="h1-titulo"><h1>Técnico</h1></div>
+	<div><h1 class="h1-sesion">Cerrar Sesión</h1></div>
+	<input type="image" value="Enviar" class="input-cerrar" id="engrane" src="cerrar.png" onclick="cerrarSesion();">
+    </div>
+    <div id="miperfil">
+	<input type="image" value="Enviar" class="input-engrane" id="engrane" src="engranaje.png">
+	<h2>Mi Perfil</h2>
+    </div>
+	
+    <div id="mireparacion">
+	<input type="image" value="Enviar" class="input-llave" id="engrane" src="llave.png">
+	<h2 class="h2-reparaciones">Mis Reparaciones</h2>
+    </div>    
+	<h1 class="h1-lista">Lista de Reparaciones</h1>
+    <form action="" method="POST" onsubmit="return validar();">
+
+<table border=10 width=100%>
+<tr>
+<td width=40%><label for="nombre">Cliente: </label></td>
+<td width=25%><label for="nombre">Marca: </label></td>
+<td width=25%><label for="nombre">Modelo: </label></td>
+<td rowspan="2" width=25%><input type="image" value="Enviar" class="input-lupa" id="boton" src="lupa.png"></td>
+</tr>
+<tr>
+<td><input type="text" placeholder="Nombre del cliente" class="input-nombre" id="nombre"></td>
+<td>
+        <select id="marca">
+		<option value="" label="Seleccionar">Seleccionar</option>
+		<option value="C1" label="C1">C1</option>
+		<option value="C2" label="C2">C2</option>
+		<option value="C3" label="C3">C3</option>
+		<option value="C4" label="C4">C4</option>
+	</select>
+</td>
+<td>
+	<select id="modelo">
+		<option value="" label="Seleccionar">Seleccionar</option>
+		<option value="M1" label="M1">m1</option>
+		<option value="M2" label="M2">m2</option>
+		<option value="M3" label="M3">m3</option>
+		<option value="M4" label="M4">m4</option>
+	</select>
+</td>
+</tr>
+</table>
+<!--
+	<label for="nombre">Cliente: </label>
+	<input type="text" placeholder="Nombre del cliente" id="nombre">
+	<select name="" id="">
+		<option value="" label="Marca"></option>
+		<option value="" label="C1"></option>
+		<option value="" label="C2"></option>
+		<option value="" label="C3"></option>
+		<option value="" label="C4"></option>
+	</select>
+	<select name="" id="">
+		<option value="" label="Modelo"></option>
+		<option value="" label="M1"></option>
+		<option value="" label="M2"></option>
+		<option value="" label="M3"></option>
+		<option value="" label="M4"></option>
+	</select>
+	<input type="image" value="Enviar" id="boton" src="C:\Users\jconde\Documents\Ingenieria de Software I\lupa.png">-->
+    </form>
+    <div id="banner"></div>
+  </body>
+</html>
